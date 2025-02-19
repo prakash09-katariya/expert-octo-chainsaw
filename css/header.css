@@ -1,11 +1,12 @@
 .article{
     margin: 50px auto;
-    width: 200px;
+    width: 100%;
     position: relative;
     transition: all 0.3s ease;
 }
 .article img:first-child{
     width: 100%;
+    object-fit: cover;
     box-shadow: 0 10px 15px 
     -3px rgba(255, 255, 255, 0.5);
     object-fit: cover;
@@ -14,6 +15,7 @@
 
 .article img:last-child{
     position: absolute;
+    object-fit: cover;
     width: 100%;
     top: 0;
     left: 0;
