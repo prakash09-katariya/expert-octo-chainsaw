@@ -9,21 +9,22 @@
     <link rel="stylesheet" href="css/all.min.css" />
   </head>
   <body>
-      <header class="header-section bg-[#1b2a4e] w-full ">
+      <header class="header-section bg-[#1b2a4e] w-full max-[640px]:px-[15px] ">
       <div class="container mx-auto">
         <div class="grid grid-cols-12 flex items-center">
           <div
-            class="sm:col-span-12 md:col-span-2 justify-between flex items-center"
+            class="sm:col-span-12 md:col-span-2 max-[640px]:col-span-12 justify-between flex items-center"
           >
-            <img src="img/detailed-chef-logo-template.png" alt="" class="md:w-[50%] sm:w-[20%] py-1" />
+            <img src="img/detailed-chef-logo-template.png" alt="" class="md:w-[50%] sm:w-[20%] max-[640px]:w-[20%] py-1" />
             <a
-              class="md:hidden sm:block w-[36px] h-[36px] sm:flex items-center justify-center bg-[white]"
+              class="md:hidden sm:block w-[36px] h-[36px] sm:flex items-center justify-end max-[640px]:flex max-[640px]:items-center max-[640px]:justify-center   bg-[white]"
               href=""
               ><i class="fa-solid fa-bars text-[20px] text-[black]"></i
             ></a>
           </div>
+        
 
-          <div class="md:col-span-8 sm:hidden md:block">
+          <div class="md:col-span-8 sm:hidden md:block max-[640px]:hidden">
             <ul class="nav-list flex items-center justify-center gap-4">
               <li>
                 <a
@@ -62,7 +63,7 @@
               </li>
             </ul>
           </div>
-          <div class="md:col-span-2 sm:hidden md:block">
+          <div class="md:col-span-2 sm:hidden md:block max-[640px]:hidden">
             <ul class="flex items-center gap-4 justify-end">
               <li>
                 <a
@@ -97,14 +98,14 @@
       </div>
       </header>
 
-      <div class="w-full bg-[url(img/bg-food.jpg)] bg-cover py-[100px] relative h-[100vh] flex justify-center items-center">
+      <div class="w-full max-[640px]:px-[15px] bg-[url(img/bg-food.jpg)] bg-cover py-[100px] max-[640px]:py-[35px] relative h-[100vh] max-[640px]:h-[100vw] flex justify-center items-center">
       <span
         class="absolute bg-[black] w-[100%] h-[100%] top-0 opacity-50 z-10"
       ></span>
       <div class="container mx-auto">
         <div class="grid grid-cols-12 flex items-center py-4 z-30 relative">
-          <div class="md:col-span-12 sm:col-span-12 pb-4">
-            <h1 class="text-[54px] text-center  font-[700] font-serif pb-4 text-[white]">
+          <div class="md:col-span-12 sm:col-span-12 pb-4 max-[640px]:col-span-12">
+            <h1 class="text-[54px] md:text-[48px] max-[640px]:text-[26px] text-center  font-[700] font-serif pb-4 text-[white]">
               <span class="hover:text-[red]">[Delicious]</span> <br />Food & Restaurant.
             </h1>
            
@@ -120,12 +121,12 @@
       </div>
       </div>
 
-      <div class="w-full py-[120px] basic-info-about-food">
+      <div class="w-full max-[640px]:px-[15px] py-[120px] max-[640px]:py-[35px] basic-info-about-food">
       <div class="container mx-auto">
-          <div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2  flex items-center">
+          <div class="grid grid-cols-2 sm:grid-cols-1 max-[640px]:grid-cols-1 md:grid-cols-2  flex items-center">
               <div class="left">
                   <h3 class="text-[16px] font-[300] font-serif leading-[16px] mb-[16px] text-[#ff8000]">Basic info about food</h3>
-                  <h2 class="text-[40px] font-[600] w-[60%] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">Wexim-Delicious Food Restaurant in NewYork, USA</h2>
+                  <h2 class="text-[40px] max-[640px]:text-[26px]  font-[600] w-[60%] max-[640px]:w-[100%] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">Wexim-Delicious Food Restaurant in NewYork, USA</h2>
               </div>
               <div class="right m-[24px]">
                   <p class="text-[15px] font-[400] font-serif text-[#6d6d6d] leading-[26px]">
@@ -140,7 +141,7 @@
               </div>
              
           </div>
-          <div class="grid grid-cols-3 mt-[48px] md:grid-cols-3 sm:grid-cols-1 ">
+          <div class="grid grid-cols-3 mt-[48px] md:grid-cols-3 sm:grid-cols-1 max-[640px]:grid-cols-1 ">
               <div class="item drop-shadow-2xl p-4 ">
                 <h2 class="text-[40px] font-[700] font-serif py-[40px] leading-[26px] ">01.</h2>
                 <h5 class="text-[16px] font-[500] font-serif pb-[24px] leading-[16px] text-[#2b2b2b]" >Italian Food</h5>
@@ -167,7 +168,7 @@
 
       </div>
 
-      <div class="w-full basic-info-about-resturent">
+      <div class="w-full max-[640px]:px-[15px] basic-info-about-resturent">
       <div class="container mx-auto">
           <div class="grid grid-cols-12 ">
           <div class="col-span-12 pb-[48px]">
@@ -189,7 +190,7 @@
           </div>
           </div>
 
-          <div class="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1">
+          <div class="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 max-[640px]:grid-cols-1">
             <div class="item-card  border-[20px] border-[white] drop-shadow-sm m-[10px]">
               <div class="image ">
                 <img src="img/food-team1.jpg" alt="" width="100%">
@@ -291,14 +292,14 @@
       </div>
       </div>
 
-      <div class="w-full py-[120px] delicioues-food">
+      <div class="w-full max-[640px]:px-[15px] max-[640px]:py-[35px] py-[120px] delicioues-food">
     <div class="container mx-auto">
-        <div class="grid grid-cols-2 max-[600px]:bg-sky-300 flex items-center">
+        <div class="grid grid-cols-2 max-[600px]:bg-sky-300  max-[640px]:grid-cols-1 flex items-center">
             <div class="left">
                 <h3 class="text-[16px] font-[300] font-serif leading-[16px] mb-[16px] text-[#ff8000]">Delicious food of our restaurant</h3>
-                <h2 class="text-[40px] font-[600] w-[60%] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">Delicious Food Gallery</h2>
+                <h2 class="text-[40px] max-[640px]:text-[26px] max-[640px]:w-[100%] font-[600] w-[60%] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">Delicious Food Gallery</h2>
             </div>
-            <div class="right m-[24px]">
+            <div class="right m-[24px] max-[640px]:m-[0]">
                 <p class="text-[15px] font-[400] font-serif text-[#6d6d6d] leading-[26px]">
                     Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.
                <br>
@@ -310,7 +311,7 @@
            
         </div>
         <div class="grid grid-cols-1">
-            <ul class="flex items-center gap-4 mb-[30px]">
+            <ul class="flex items-center gap-4 mb-[30px] max-[640px]:gap-1">
                 <li><a class="hover:text-[blue] text-[15px] font-serif font-[300] leading-[26px]" href="">All /</a></li>
                 <li><a class="hover:text-[blue] text-[15px] font-serif font-[300] leading-[26px]" href="">Continental /</a></li>
                 <li><a class="hover:text-[blue] text-[15px] font-serif font-[300] leading-[26px]" href="">Italian /</a></li>
@@ -318,11 +319,11 @@
                 <li><a class="hover:text-[blue] text-[15px] font-serif font-[300] leading-[26px]" href="">Arabian /</a></li>
             </ul>
         </div>
-        <div class="grid grid-cols-12">
+        <div class="grid grid-cols-12 max-[640px]:grid-cols-6 max-[640px]:gap-2 ">
             <div class="col-span-3 overflow-hidden">
                 <img src="http://templates.acrothemes.com/wexim/images/food-gallery-3.jpg" alt=""  class="hover:scale-110 duration-300 ease-in">
             </div>
-            <div class="col-span-3">
+            <div class="col-span-3 ">
                 <div class="first overflow-hidden">
                     <img src="img/food-gallery-4.jpg" alt="" class="hover:scale-120 duration-300 ease-in">
                 </div>
@@ -356,7 +357,7 @@
 
       </div>
 
-      <div class="w-full py-[120px] order-menu bg-[#f8f9fa]">
+      <div class="w-full max-[640px]:px-[15px] max-[640px]:py-[35px] py-[120px] order-menu bg-[#f8f9fa]">
       <div class="container mx-auto">
     <div class="grid grid-cols-12 ">
       <div class="col-span-12 pb-[48px]">
@@ -366,12 +367,12 @@
           Most Delicious Menu
         </h4>
         <h2
-          class="text-center text-[48px] font-'[500] mb-4 font-serif text-[#800000]"
+          class="text-center text-[48px] max-[640px]:text-[26px] font-'[500] mb-4 font-serif text-[#800000]"
         >
           Order Menu
         </h2>
         <p
-          class="text-center text-[15px] font-[300] w-[63%] mx-auto text-[#6d6d6d]"
+          class="text-center text-[15px] font-[300] max-[640px]:w-[100%] w-[63%] mx-auto text-[#6d6d6d]"
         >
           Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed
           suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus
@@ -380,7 +381,7 @@
         </p>
       </div>
     </div>
-    <div class="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3 ">
+    <div class="grid grid-cols-3 sm:grid-cols-1 max-[640px]:grid-cols-1 md:grid-cols-3 ">
         <div class="card px-[21px] py-[32px] m-[10px]  shadow-lg">
             <h2 class="text-[24px] font-[500] text-[red] pb-[24px] -b-1">Basic</h2>
             <div class="price-tag flex items-center border-b-1 border-t-1 py-[15px]">
@@ -449,12 +450,12 @@
       </div>
       </div>
 
-      <div class="w-full py-[120px] you-can-trust">
+      <div class="w-full max-[640px]:px-[15px] max-[640px]:py-[35px] py-[120px] you-can-trust">
         <div class="container mx-auto">
-            <div class="grid grid-cols-2 md:grid-cols-2  sm:grid-cols-1">
-                <div class="item">
+            <div class="grid grid-cols-2 md:grid-cols-2  sm:grid-cols-1 max-[640px]:grid-cols-1">
+                <div class="item max-[640px]:mb-3">
                         <h3 class="text-[16px] font-[300] font-serif leading-[16px] mb-[16px] text-[#ff8000]">You can trust us</h3>
-                        <h2 class="text-[40px] font-[500] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">We Know <br> How to Cook</h2>
+                        <h2 class="text-[40px] max-[640px]:text-[26px] font-[500] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">We Know <br> How to Cook</h2>
                         <p class="text-[15px] font-[300] font-serif leading-[26px] mb-[24px] text-[#6d6d6d]" >Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitu eleifend in maximus metus sollicitudin.</p>
                         <a class="py-[9px] px-[34px] bg-[red] rounded-full text-[white]" href="">Learn More</a>
                 </div>
@@ -465,7 +466,7 @@
         </div>
       </div>
 
-      <!-- <div class="w-full">
+      <!-- <div class="w-full max-[640px]:px-[15px]">
       <div class="container mx-auto">
         <div class="grid grid-cols-12 flex items-center py-4">
           <div class="md:col-span-6 sm:col-span-12 pb-4">
@@ -505,7 +506,7 @@
       </div>
       </div> -->
 
-      <div class="w-full py-[120px] most-reliable-application">
+      <div class="w-full max-[640px]:px-[15px] max-[640px]:py-[35px] py-[120px] most-reliable-application">
         <div class="container mx-auto">
             <div class="grid grid-cols-12 ">
                 <div class="col-span-12 pb-[48px]">
@@ -515,26 +516,26 @@
                   Most reliable application
                   </h4>
                   <h2
-                    class="text-center text-[48px] font-'[500] mb-4 font-serif text-[#800000]"
+                    class="text-center text-[48px] max-[640px]:text-[26px] font-'[500] mb-4 font-serif text-[#800000]"
                   >
                   Order Through App
                   </h2>
                   <p
-                    class="text-center text-[15px] font-[300] w-[60%] mx-auto text-[#6d6d6d]"
+                    class="text-center text-[15px] max-[640px]:w-[100%] font-[300] w-[60%] mx-auto text-[#6d6d6d]"
                   >
                   Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
                   </p>
                 </div>
             </div>
-            <div class="grid grid-cols-3 sm:grid-cols-1 lg:grid-cols-3">
+            <div class="grid grid-cols-3 sm:grid-cols-1 lg:grid-cols-3 max-[640px]:grid-cols-1">
                 <div class="card-first">
                     <div class="card text-center shadow-md p-5 mb-[48px]">
                         <span><i class="text-[40px] mb-[24px] fa-regular fa-gem"></i></span>
                         <h2 class="text-[24px] mb-[16px] font-serif font-[500] leading-[24px]">Free Delivery</h2>
                         <p class="text-[15px] font-[300] font-serif leading-[26px] text-[grey]">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
                     </div>
-                    <div class=" card text-center mt-4 shadow-md p-5">
-                        <span><i class="text-[40px] mb-[24px] fa-regular fa-gem"></i></span>
+                    <div class="text-[40px] mb-[24px]  card text-center mt-4 shadow-md p-5">
+                        <span><i class="fa fa-edit gradient-text1" aria-hidden="true"></i></span>
                         <h2 class="text-[24px] mb-[16px] font-serif font-[500] leading-[24px]">Economical</h2>
                         <p class="text-[15px] font-[300] font-serif leading-[26px] text-[grey]">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
                     </div>
@@ -544,12 +545,12 @@
                 </div>
                 <div class="card-first ">
                     <div class="card text-center shadow-md p-5 mb-[48px]">
-                        <span><i class="text-[40px] mb-[24px] fa-regular fa-gem"></i></span>
+                        <span><i class="text-[40px] mb-[24px] fa fa-code gradient-text1" aria-hidden="true"></i></span>
                         <h2 class="text-[24px] mb-[16px] font-serif font-[500] leading-[24px]">Delicious</h2>
                         <p class="text-[15px] font-[300] font-serif leading-[26px] text-[grey]">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
                     </div>
                     <div class=" card text-center shadow-md p-5">
-                        <span><i class="text-[40px] mb-[24px] fa-regular fa-gem"></i></span>
+                        <span><i class="text-[40px] mb-[24px] fa-solid fa-shield"></i></span>
                         <h2  class="text-[24px] mb-[16px] font-serif font-[500] leading-[24px]">Order Online</h2>
                         <p class="text-[15px] font-[300] font-serif leading-[26px] text-[grey]">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
                     </div>
@@ -558,22 +559,22 @@
             
         </div>
       </div>
-      <div class="w-full py-[120px] bg-[#f8f9fa] breack-fast-section">
+      <div class="w-full max-[640px]:px-[15px] max-[640px]:py-[35px] py-[120px] bg-[#f8f9fa] breack-fast-section">
       <div class="container mx-auto">
-          <div class="grid grid-cols-2 flex items-center gap-[50px]">
+          <div class="grid grid-cols-2 flex items-center gap-[50px] max-[640px]:grid-cols-1">
               <div class="item mb-[48px] overflow-hidden">
                   <img src="img/food-blog-image1.jpg" alt="" class="hover:scale-110 duration-300 ease-in" >
               </div>
               <div class="item">
                   <h3 class="text-[16px] font-[300] font-serif leading-[16px] mb-[16px] text-[#ff8000]">January 14, 2019</h3>
-                  <h2 class="text-[40px] font-[500] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">Best Breakfast in Town</h2>
+                  <h2 class="text-[40px] max-[640px]:text-[26px] font-[500] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">Best Breakfast in Town</h2>
                   <p class="text-[15px] font-[300] font-serif leading-[26px] mb-[24px] text-[#6d6d6d]" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodt temp to the incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis a nostr a exercitation ullamco laboris nisi ut aliquip.</p>
                   <a class="py-[9px] px-[34px] bg-[red] rounded-full text-[white]" href="">Learn More</a>
               </div>
               
               <div class="item">
                   <h3 class="text-[16px] font-[300] font-serif leading-[16px] mb-[16px] text-[#ff8000]">August 20, 2019</h3>
-                  <h2 class="text-[40px] font-[500] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">Best Chinese Food</h2>
+                  <h2 class="text-[40px] max-[640px]:text-[26px] font-[500] font-serif leading-[52px] mb-[19.2px] text-[#2b2b2b]">Best Chinese Food</h2>
                   <p class="text-[15px] font-[300] font-serif leading-[26px] mb-[24px] text-[#6d6d6d]" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodt temp to the incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis a nostr a exercitation ullamco laboris nisi ut aliquip.</p>
                   <a class="py-[9px] px-[34px] bg-[red] rounded-full text-[white]" href="">Learn More</a>
               </div>
@@ -584,7 +585,7 @@
       </div>
       </div>
 
-      <div class="w-full py-[120px]">
+      <div class="w-full max-[640px]:px-[15px] max-[640px]:py-[35px] py-[120px]">
           <div class="container mx-auto">
             <div class="grid grid-cols-12 ">
               <div class="col-span-12 pb-[48px]">
@@ -594,7 +595,7 @@
                 Lorem ipsum dolor sit amet
                 </h4>
                 <h2
-                  class="text-center text-[48px] font-'[500] mb-4 font-serif text-[#800000]"
+                  class="text-center text-[48px] max-[640px]:text-[26px] font-'[500] mb-4 font-serif text-[#800000]"
                 >
                 Let's Get In Touch
                 </h2>
@@ -602,7 +603,7 @@
               </div>
             </div>
 
-            <div class="grid grid-cols-2 flex gap-4">
+            <div class="grid grid-cols-2 flex gap-4 max-[640px]:grid-cols-1">
                 <div class="input w-[100%] border-b-1 mb-[24px]">
                     <input type="text" placeholder="First Name " class="w-[100%] py-[12px] text-[14px] font-[400]">
                 </div>
@@ -619,14 +620,14 @@
 
             <div class="grid-cols-1">
                 <div class="text-area w-[100%]">
-                  <textarea class=" font-[300] py-[12px] bg-[white] w-[100%] h-[175px]" name="Message" id="" placeholder="Message " > </textarea>
+                  <textarea class=" font-[300] py-[12px] bg-[white] w-[100%] h-[175px] max-[640px]:h-[80px]" name="Message" id="" placeholder="Message " > </textarea>
                 </div>
-                <a class="flex justify-center w-[20%] m-auto py-[9px] px-[34px] bg-[red] rounded-full text-[white]" href="">Contact Now</a>
+                <a class="flex justify-center w-[20%] max-[640px]:w-[40%] m-auto py-[9px] px-[34px] bg-[red] max-[640px]:text-[10px] rounded-full text-[white]" href="">Contact Now</a>
             </div>
           </div>
       </div>
 
-      <footer class="w-full py-[120px] bg-[#1b2a4e]">
+      <footer class="w-full max-[640px]:px-[15px] max-[640px]:py-[35px] py-[120px] bg-[#1b2a4e]">
           <div class="container mx-auto">
               <div class="grid grid-cols-1 ">
                   <ul class="flex items-center gap-4 flex justify-center my-[10px]">
